@@ -24,6 +24,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
         viewModel.fetchPerson(query: "kim")
         
         viewModel.list.bind { person in

@@ -30,17 +30,17 @@ class Observable<T> { // 데이터 담아주는 역할을 할 것. 양방향 바
 }
 
 
-class User {
-    private var listener: ((String) -> Void)?
-    
-    var value: String {
-        didSet {
-            print("데이터 바뀜!")
-        listener?(value)
-        }
-    }
-    
-    init(_ value: String) {
-        self.value = value
-    }
-}
+//class User {
+//    private var listener: ((String) -> Void)?
+//
+//    var value: String {
+//        didSet {
+//            print("데이터 바뀜!")
+//        listener?(value)
+//        }
+//    }
+//
+//    init(_ value: String) {
+//        self.value = value
+//    }
+//}
