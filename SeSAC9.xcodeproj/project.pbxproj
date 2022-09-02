@@ -11,6 +11,7 @@
 		DE33E4DE28C0484300F3BF9C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE33E4DD28C0484300F3BF9C /* LoginViewController.swift */; };
 		DE33E4E028C04A0400F3BF9C /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE33E4DF28C04A0400F3BF9C /* LoginViewModel.swift */; };
 		DE37D83828C05AFB008ACC48 /* LottoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE37D83728C05AFB008ACC48 /* LottoViewController.swift */; };
+		DE3A6E3228C1866100481E54 /* GCDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3A6E3128C1866100481E54 /* GCDViewController.swift */; };
 		DE3B629D28BD94E400D190A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3B629C28BD94E400D190A3 /* AppDelegate.swift */; };
 		DE3B629F28BD94E400D190A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3B629E28BD94E400D190A3 /* SceneDelegate.swift */; };
 		DE3B62A128BD94E400D190A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3B62A028BD94E400D190A3 /* ViewController.swift */; };
@@ -32,6 +33,7 @@
 		DE33E4DD28C0484300F3BF9C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DE33E4DF28C04A0400F3BF9C /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		DE37D83728C05AFB008ACC48 /* LottoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoViewController.swift; sourceTree = "<group>"; };
+		DE3A6E3128C1866100481E54 /* GCDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDViewController.swift; sourceTree = "<group>"; };
 		DE3B629928BD94E400D190A3 /* SeSAC9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSAC9.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE3B629C28BD94E400D190A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE3B629E28BD94E400D190A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 		DE3B629B28BD94E400D190A3 /* SeSAC9 */ = {
 			isa = PBXGroup;
 			children = (
+				DE3A6E3128C1866100481E54 /* GCDViewController.swift */,
 				DE3B62B528BDA71900D190A3 /* Person */,
 				DE3B62B028BD94ED00D190A3 /* Lotto */,
 				DE3B629C28BD94E400D190A3 /* AppDelegate.swift */,
@@ -213,6 +216,7 @@
 				DE3B629F28BD94E400D190A3 /* SceneDelegate.swift in Sources */,
 				DE33E4DC28C037FB00F3BF9C /* Sample.swift in Sources */,
 				DE3B62B228BD94F700D190A3 /* LottoAPIManager.swift in Sources */,
+				DE3A6E3228C1866100481E54 /* GCDViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
