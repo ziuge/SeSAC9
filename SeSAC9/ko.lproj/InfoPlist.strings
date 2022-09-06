@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  SeSAC9
+
+  Created by CHOI on 2022/09/06.
+  
+*/
+
+"CFBundleDisplayName" = "잭 다이어리";
+"NSLocationWhenInUseUsageDescription" = "권한 어쩌구저쩌구";

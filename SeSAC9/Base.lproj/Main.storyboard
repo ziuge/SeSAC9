@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Trc-hh-MRx">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="TlE-6H-K8O">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -223,72 +223,64 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E8W-K2-0uc">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E8W-K2-0uc">
                                 <rect key="frame" x="79" y="129" width="257" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Serial(Main) / Sync"/>
                                 <connections>
                                     <action selector="serialSync:" destination="Trc-hh-MRx" eventType="touchUpInside" id="2ZS-ep-v0x"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ea8-Ie-JhG">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ea8-Ie-JhG">
                                 <rect key="frame" x="79" y="206" width="257" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Serial(Main) / Async"/>
                                 <connections>
                                     <action selector="serialAsync:" destination="Trc-hh-MRx" eventType="touchUpInside" id="0cE-zQ-p6e"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LXX-1y-zuz">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LXX-1y-zuz">
                                 <rect key="frame" x="79" y="279" width="257" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Concurrent(Global) / Sync"/>
                                 <connections>
                                     <action selector="globalSync:" destination="Trc-hh-MRx" eventType="touchUpInside" id="L9b-Lh-eUR"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1s0-Ru-3YG">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1s0-Ru-3YG">
                                 <rect key="frame" x="79" y="356" width="257" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Concurrent(Global) / Async"/>
                                 <connections>
                                     <action selector="globalAsync:" destination="Trc-hh-MRx" eventType="touchUpInside" id="PtN-ZT-4hN"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Loi-75-FBR">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Loi-75-FBR">
                                 <rect key="frame" x="79" y="429" width="257" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="GCD QoS (Quality of Service)"/>
                                 <connections>
                                     <action selector="qos:" destination="Trc-hh-MRx" eventType="touchUpInside" id="eyj-BK-rPW"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nAx-AZ-4ik">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nAx-AZ-4ik">
                                 <rect key="frame" x="79" y="494" width="257" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="DispatchGroup"/>
                                 <connections>
                                     <action selector="dispatchGroup:" destination="Trc-hh-MRx" eventType="touchUpInside" id="ex9-pH-lBZ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dsb-es-wc3">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dsb-es-wc3">
                                 <rect key="frame" x="79" y="551" width="257" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="DispatchGroup - NASA"/>
                                 <connections>
                                     <action selector="dispatchGroupNASA:" destination="Trc-hh-MRx" eventType="touchUpInside" id="tWD-w8-HXt"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9hP-rM-Io3">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9hP-rM-Io3">
                                 <rect key="frame" x="79" y="608" width="257" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="DispatchGroup enter/leave - NASA"/>
                                 <connections>
@@ -307,9 +299,8 @@
                                 <rect key="frame" x="213" y="660" width="59" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6nB-3P-URH">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6nB-3P-URH">
                                 <rect key="frame" x="174" y="741" width="67" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                 <connections>
@@ -319,6 +310,17 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Fg8-w9-2PB"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="nAx-AZ-4ik" firstAttribute="centerX" secondItem="MW6-ht-pzS" secondAttribute="centerX" id="ARr-fq-L9r"/>
+                            <constraint firstItem="Loi-75-FBR" firstAttribute="centerX" secondItem="MW6-ht-pzS" secondAttribute="centerX" id="AuL-i0-cbX"/>
+                            <constraint firstItem="9hP-rM-Io3" firstAttribute="centerX" secondItem="MW6-ht-pzS" secondAttribute="centerX" id="Hvg-MX-47D"/>
+                            <constraint firstItem="1s0-Ru-3YG" firstAttribute="centerX" secondItem="MW6-ht-pzS" secondAttribute="centerX" id="Jxg-w7-yG0"/>
+                            <constraint firstItem="LXX-1y-zuz" firstAttribute="centerX" secondItem="MW6-ht-pzS" secondAttribute="centerX" id="SOb-qF-4Vk"/>
+                            <constraint firstItem="dsb-es-wc3" firstAttribute="centerX" secondItem="MW6-ht-pzS" secondAttribute="centerX" id="Ul4-9C-YbF"/>
+                            <constraint firstItem="E8W-K2-0uc" firstAttribute="centerX" secondItem="MW6-ht-pzS" secondAttribute="centerX" id="dsC-Wq-bJS"/>
+                            <constraint firstItem="6nB-3P-URH" firstAttribute="centerX" secondItem="MW6-ht-pzS" secondAttribute="centerX" id="lUO-aN-EUn"/>
+                            <constraint firstItem="Ea8-Ie-JhG" firstAttribute="centerX" secondItem="MW6-ht-pzS" secondAttribute="centerX" id="uQN-WQ-qbu"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="imageFirst" destination="mdL-68-7xl" id="XQY-2w-VVi"/>
@@ -329,6 +331,72 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iVH-g6-dnU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2682.608695652174" y="51.5625"/>
+        </scene>
+        <!--Localize View Controller-->
+        <scene sceneID="GdV-bv-9uc">
+            <objects>
+                <viewController id="UAh-CY-dcI" customClass="LocalizeViewController" customModule="SeSAC9" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PzM-Zj-2SY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6WO-SM-oI8">
+                                <rect key="frame" x="0.0" y="132" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xf3-nR-aXN">
+                                <rect key="frame" x="61" y="208" width="287" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mWj-1g-V29">
+                                <rect key="frame" x="127" y="583" width="180" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="e7k-4U-mlO">
+                                <rect key="frame" x="61" y="301" width="287" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vcE-Dv-eEb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="owG-Mr-PtC"/>
+                    <connections>
+                        <outlet property="inputTextField" destination="e7k-4U-mlO" id="Bsf-U6-e4R"/>
+                        <outlet property="myLabel" destination="xf3-nR-aXN" id="Ez0-7H-QD5"/>
+                        <outlet property="sampleButton" destination="mWj-1g-V29" id="oEW-ie-bde"/>
+                        <outlet property="searchBar" destination="6WO-SM-oI8" id="LxC-kC-SJ3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a6O-ZR-rF5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5053.6231884057979" y="51.5625"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="iu8-gA-nDD">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="TlE-6H-K8O" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9oD-hu-j3a">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="UAh-CY-dcI" kind="relationship" relationship="rootViewController" id="jE6-76-ilY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iRB-R4-Dn2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4142.0289855072469" y="51.5625"/>
         </scene>
     </scenes>
     <resources>

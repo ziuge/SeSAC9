@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  SeSAC9
+
+  Created by CHOI on 2022/09/06.
+  
+*/
+
+"navigation_title" = "My Diary";
+
+"search_placeholder" = "Search Movie";
+
+"main_age_placeholder" = "How old are you?";
+
+"common_cancel" = "Cancel";
+
+"introduce" = "I'm %@";
+
+"number_test" = "I'm %lld";
